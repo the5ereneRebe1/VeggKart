@@ -35,6 +35,7 @@ public class SelectQuantity extends DialogFragment {
 
                 //till here
                 Toast.makeText(getActivity(),"Added to cart..",Toast.LENGTH_SHORT).show();
+                getDialog().dismiss();
             }
         });
         return rootView;
